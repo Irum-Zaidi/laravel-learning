@@ -235,4 +235,3 @@ Route::controller(PageController::class)->group(function () {
 
 Route::get('/test', TestingController::class);
 
-// ksjdhfsjdh
