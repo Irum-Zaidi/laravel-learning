@@ -1,0 +1,10 @@
+INSERT INTO `students` (`name`, `email`) VALUES
+('Alice Smith', 'alice@example.com'),
+('Bob Johnson', 'bob@example.com'),
+('Charlie Brown', 'charlie@example.com');
+
+
+INSERT INTO `libraries` (`stud_id`, `book`, `due_date`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Laravel for Beginners', '2025-07-28', 1, NOW(), NOW()),
+(2, 'Mastering PHP', '2025-07-25', 0, NOW(), NOW()),
+(3, 'Understanding MySQL', NULL, 1, NOW(), NOW());
