@@ -72,11 +72,14 @@ class StudentSeeder extends Seeder
         //     'email' => fake()->unique()->email()
         // ]);
 
-        for ($i = 0; $i < 10; $i++) {
-            student::create([
-                'name' => fake()->name(),
-                'email' => fake()->unique()->email()
-            ]);
-        }
+        // for ($i = 0; $i < 10; $i++) {
+        //     student::create([
+        //         'name' => fake()->name(),
+        //         'email' => fake()->unique()->email()
+        //     ]);
+        // }
+
+        student::factory(5)->create();
+
     }
 }
